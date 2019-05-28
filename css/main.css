@@ -106,7 +106,7 @@ p {
   transition: transform .1s;
 }
 
-.sign_up__button:hover {
+a .sign_up__button:hover {
   transform: scale(1.1); 
 }
 
