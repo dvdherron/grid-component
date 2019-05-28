@@ -103,7 +103,13 @@ p {
   color: white;
   font-weight: 700;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.281);
+  transition: transform .1s;
 }
+
+.sign_up__button:hover {
+  transform: scale(1.1); 
+}
+
 
 .highlights {
   background-color: hsl(179, 55%, 52%);
