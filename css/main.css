@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css?family=Karla:400,700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: hsl(220, 6%, 91%);
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  padding: 4em 3em 0 3em;
+  min-height: 100vh;
+  position: relative;
+  min-width: 100%;
+  font-family: Karla, Arial, Helvetica, sans-serif;
+  color: hsl(206, 4%, 69%);
+  line-height: 180%;
+}
+
+p {
+  margin: 0;
+}
+
+.main-content {
+  overflow: hidden;
+}
+
+.card-descriptions {
+  margin: 0 auto;
+  max-width: 960px;
+  max-width: 960px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.card {
+  padding: 1.25rem;
+}
+
+.card-title {
+  margin-bottom: 0;
+}
+
+.join {
+  background: white;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.join-title {
+  color: hsl(179, 62%, 43%);
+  margin-bottom: 1em;
+}
+
+.join-subtitle  {
+  color: hsl(71, 73%, 54%);
+  font-weight: 700;
+  line-height: 140%;
+  margin-bottom: 1.25em;
+}
+
+.featured-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.featured-card {
+  background-color: hsl(179, 62%, 43%);
+  color: white;
+}
+
+.price_number {
+  display: inline-block;
+  padding-right: 7px;
+  font-weight: 700;
+  font-size: 1.75em;
+  margin: .75em 0 0.375em;
+}
+
+.price {
+  display: inline-block;
+  color: hsl(182, 86%, 73%);
+}
+
+.button_container {
+  margin: 1em auto 0 auto;
+  max-width: 300px;
+}
+
+.sign_up__button {
+  background-color: hsl(71, 73%, 54%);
+  width: 100%;
+  margin: 1em auto;
+  padding: 1.25em;
+  border-radius: 6px;
+  border: 1px solid hsl(71, 73%, 54%);
+  font-family: inherit;
+  color: white;
+  font-weight: 700;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.281);
+}
+
+.highlights {
+  background-color: hsl(179, 55%, 52%);
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  color: white;
+}
+
+.highlights--list {
+  list-style: none;
+  padding: 0;
+}
+
+.colored-card__text-body {
+  color: hsl(201, 33%, 90%);
+}
+
+.page_footer {
+  margin: 1em 0;
+}
+
+.attribution { 
+  font-size: 11px; 
+  text-align: center; 
+}
+
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+}
+
+@media (min-width: 40em) {
+  .card {
+    padding: 2rem;
+  }
+
+  .featured-section {
+    flex-direction: row;
+  }
+
+  .highlights {
+    width: 50%;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 0;
+  }
+
+  .featured-card {
+    width: 50%;
+    border-bottom-left-radius: 10px;
+  }
+}
